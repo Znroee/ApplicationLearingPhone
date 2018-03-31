@@ -1,0 +1,30 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="learning.myapplication.AplSettingsMainActivity$GeneralPreferenceFragment"
+        android:title="@string/header_user_conf"
+        android:icon="@drawable/ic_info_black_24dp" />
+
+    <header
+        android:fragment="learning.myapplication.AplSettingsMainActivity$NotificationPreferenceFragment"
+        android:title="@string/header_notifications_conf"
+        android:icon="@drawable/ic_notifications_black_24dp" />
+
+    <header
+        android:fragment="learning.myapplication.AplSettingsMainActivity$DataSyncPreferenceFragment"
+        android:title="@string/header_gameSelection_conf"
+        android:icon="@drawable/ic_sync_black_24dp" />
+
+    <header
+        android:fragment="learning.myapplication.AplSettingsMainActivity$StatisticFragment"
+        android:title="@string/header_statistic_conf"
+        android:icon="@drawable/ic_sync_black_24dp" />
+
+    <header
+        android:fragment="learning.myapplication.AplSettingsMainActivity$CloseApplicationFragment"
+        android:title="@string/header_CloseApplication_conf"
+        android:icon="@drawable/ic_sync_black_24dp" />
+
+</preference-headers>

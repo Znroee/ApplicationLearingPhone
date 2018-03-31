@@ -1,0 +1,105 @@
+<resources>
+
+    // ************************************************************************
+    // ************************* Manage Application configuration title *******
+    // ************************************************************************
+
+    <string name="app_name">אפליקצית למידה</string>
+
+    // ************************************************************************
+    // ************************* Manage User Info *****************************
+    // ************************************************************************
+
+    <string name="header_user_conf">הגדרות משתמש</string>
+
+    <string name="pref_title_display_name">שם משתמש</string>
+    <string name="pref_default_display_name">רועי זנו</string>
+
+    <string name="pref_title_add_friends_to_messages">גיל המשתמש</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    // ************************************************************************
+    // ********************* Manage Game selection configuration **************
+    // ************************************************************************
+
+    <string name="header_gameSelection_conf">ניהול משחקים</string>
+
+    <string name="Games_time_interval_Array">הגדרת זמן פעולה</string>
+    <string-array name="Games_time_interval_Array_titles">
+        <item>5 sec</item>
+        <item>10 sec</item>
+        <item>30 sec</item>
+        <item>1 min</item>
+        <item>3 min</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="Games_time_interval_Array_values">
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="Games_Selection_Array">בחירת משחק</string>
+    <string-array name="Games_Selection_Array_titles">
+        <item>משחק זיכרון</item>
+        <item>משחק קלפים</item>
+    </string-array>
+    <string-array name="Games_Selection_Array_values">
+        <item>Game_0</item>
+        <item>Game_1</item>
+        <item>Game_2</item>
+    </string-array>
+
+    // ************************************************************************
+    // ********************* Manage Game notifications options ****************
+    // ************************************************************************
+
+    <string name="header_notifications_conf">הגדרות התראה</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    // ************************************************************************
+    // ********************* Manage Games statistic ***************************
+    // ************************************************************************
+
+    <string name="header_statistic_conf">סטטיסטיקת משחקים</string>
+
+    // ************************************************************************
+    // ********************* Close Application settings ***********************
+    // ************************************************************************
+
+    <string name="header_CloseApplication_conf">סגירת אפליקציה</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    // ************************************************************************
+</resources>
